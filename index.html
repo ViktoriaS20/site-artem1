@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе-бар Пекин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="">Меню</a>
+        <a href="#booking">Бронирование</a>
+        <a href="">Контакты</a>
+    </nav>
+</header>
+
+<main>
+
+<div class="glmeny">
+    <h1>Кафе-бар "Пекин"</h1>
+
+    <img class="main"
+    src="https://static.tildacdn.com/tild3339-3766-4961-b031-366461376531/photo_2024-12-11_21-.jpg"
+    width="500">
+
+    <p class="p1">
+        У нас вы сможете насладиться разнообразными блюдами традиционной китайской кухни,
+        приготовленными по аутентичным рецептам. Атмосфера нашего кафе позволит вам окунуться
+        в мир восточной культуры и отдохнуть от повседневной суеты.
+        На нашем сайте вы можете заказать доставку блюд из нашего меню.
+    </p>
+
+    <a class="hhh" href="">
+        Сделать заказ
+    </a>
+</div>
+
+
+<div class="gallery">
+    <img src="https://avatars.mds.yandex.net/get-altay/14271118/2a00000192e1c2a59c0a1c639447af02331a/L_height">
+    <img src="https://avatars.mds.yandex.net/get-altay/14456919/2a00000192e1c298de12b0695a77ce08dc34/L_height">
+    <img src="https://static.tildacdn.com/tild3834-3430-4065-b766-306136366537/__9.jpg">
+    <img src="https://avatars.mds.yandex.net/get-altay/14402904/2a00000192e1c29430d401e1262a06eea3b5/L_height">
+    <img src="https://static.tildacdn.com/tild3632-6138-4835-a433-663533643235/__12.jpg">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/b9/a5/00/photo0jpg.jpg">
+</div>
+
+
+<section class="review">
+
+
+<div class="booking-form" id="booking">
+
+    <h2>Бронирование столика</h2>
+
+    <form>
+
+        <div class="form-group">
+            <label for="name">Имя и Фамилия:</label>
+            <input type="text" id="name"
+            placeholder="Иван Иванов" required>
+            <small>Укажите, как к вам обращаться</small>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone"
+            placeholder="+7 (___) ___-__-__" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"
+            placeholder="example@mail.ru" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Дата визита:</label>
+            <input type="date" id="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Время визита:</label>
+            <input type="time" id="time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="guests">Количество гостей:</label>
+
+            <select id="guests">
+                <option>Выберите количество</option>
+                <option>1 гость</option>
+                <option>2 гостя</option>
+                <option>3 гостя</option>
+                <option>4 гостя</option>
+                <option>5 и более</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="wishes">
+                Особые пожелания:
+            </label>
+
+            <textarea id="wishes"
+            rows="4"></textarea>
+        </div>
+
+
+        <div class="policy-group">
+
+            <input type="checkbox" required>
+
+            <label>
+                Я согласен на обработку персональных данных
+            </label>
+
+        </div>
+
+        <button class="submit-btn">
+            Забронировать столик
+        </button>
+
+    </form>
+
+</div>
+
+
+<h2>Отзывы</h2>
+
+
+<div class="review-card">
+    <div class="content">
+        <h4>Анна К.</h4>
+        <p>
+            Удивительное место! Матча-латте и булочки со свининой были великолепны.
+        </p>
+    </div>
+</div>
+
+
+<div class="review-card">
+    <div class="content">
+        <h4>Дмитрий Р.</h4>
+        <p>
+            Отличное место для встреч, вкусный чай и уютная атмосфера.
+        </p>
+    </div>
+</div>
+
+
+<div class="review-card">
+    <div class="content">
+        <h4>Елена С.</h4>
+        <p>
+            Очень понравились дим-самы и азиатская атмосфера.
+        </p>
+    </div>
+</div>
+
+
+</section>
+
+</main>
+
+
+<footer>
+    <h3>
+        Ждем вас г. Уссурийск, ул. Некрасова, 108<br>
+        Пн-чт, вс 11:00–23:00<br>
+        Пт-сб 11:00–02:00<br>
+        Телефон: +7 924 255 88 55
+    </h3>
+</footer>
+
+
+</body>
+</html>
