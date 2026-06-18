@@ -1,0 +1,225 @@
+/* Общие настройки */
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Меню */
+nav {
+    background-color: rgb(133, 20, 20);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+
+/* Главный блок */
+.glmeny {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+h1 {
+    float: left;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.main {
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 3px solid rgb(133, 20, 20);
+}
+
+.p1 {
+    float: left;
+    width: 500px;
+    font-size: 20px;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+.hhh {
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: goldenrod;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+.hhh:hover {
+    background-color: gold;
+    transition: 0.5s;
+}
+
+
+/* Галерея */
+.gallery {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* Раздел с отзывами и формой */
+.review {
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Форма бронирования */
+.booking-form {
+    background-color: #F5F5DC;
+    border: 3px solid #8B0000;
+    border-radius: 15px;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.booking-form h2 {
+    color: #8B0000;
+    border-bottom: 2px solid gold;
+    padding-bottom: 15px;
+}
+
+
+/* Поля формы */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5C4033;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #CD853F;
+    background-color: #FFF8DC;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group small {
+    color: #666;
+}
+
+
+/* Политика */
+.policy-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.policy-group input {
+    margin-right: 10px;
+}
+
+
+/* Кнопка */
+.submit-btn {
+    background-color: #8B0000;
+    color: gold;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: gold;
+    color: #8B0000;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
+
+
+/* Отзывы */
+.review-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.content h4 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.content p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+
+/* Подвал */
+footer {
+    background-color: rgb(133, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
